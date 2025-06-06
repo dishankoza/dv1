@@ -1201,7 +1201,7 @@
                 data: {
                     labels: ['Treated Wood (18.7%)', 'Plastic Products (16.2%)', 'Mixed Residue (14.8%)', 'Food Waste (12.3%)', 'Electronics (11.5%)', 'Other Materials (26.5%)'],
                     datasets: [{
-                        data: [18.7, 25.3, 15.2, 12.8, 8.4, 19.6],
+                        data: [18.7, 16.2, 14.8, 12.3, 11.5, 26.5],
                         backgroundColor: [
                             '#ef4444', '#10b981', '#8b5cf6', 
                             '#3b82f6', '#f59e0b', '#6b7280'
@@ -1373,8 +1373,8 @@
         // Update section indicator
         function updateSectionIndicator(sectionIndex) {
             const sectionNames = [
-                'Introduction', 'Recovery Potential', 'Hidden Patterns',
-                'ML Performance', 'Forecasting', 'Carbon Impact', 'Optimization'
+                'Introduction', 'Tree Map', 'Bar Chart',
+                'Radar Chart', 'Donut Chart', 'Bubble Chart', 'Optimization'
             ];
             
             document.getElementById('currentSection').textContent = sectionNames[sectionIndex] || 'Introduction';
